@@ -1,7 +1,70 @@
-h1{color:darkred;}
+h1, h2{
+    color: White;
+    font-family: 'Roboto Slab', serif;
+}
 
-body{font-family: helvetica;}
+body {
+    font-family: helvetica;
+    background-color: #7C2626
+}
 
-h2{color:darkred;}
+h2,h3{
+    color: White;
+}
 
-table{border:solid; padding: 10px;}
+p{
+    color: White;
+    line-height: 2em;
+}
+
+table {
+    border: solid;
+    padding: 10px;
+    background-color: #BFB48f;
+}
+
+head{ 
+background-color: black;
+}
+
+.headBar {
+    display: inline-block;
+    padding: .08em;
+    margin: 5px;
+    font-size: 1em;
+    margin-left: 6em;
+}
+
+#colorHeadBar {
+    line-height: 1em;
+    margin-top: -6em;
+}
+
+#logo {
+    padding-left: 3em;
+    padding-top: 3em;
+    height: 5em;
+    width: auto;
+    position: relative;
+    padding: 1px;
+    border: 1px solid #021a40;
+    padding: .5em .5em.;
+}
+
+nav a{
+    color: white;
+}
+
+
+nav a:hover {
+    color: red;
+}
+
+a{
+    color: White;
+    line-height: 2em;
+}
+
+a:hover{
+    color: red;
+}
