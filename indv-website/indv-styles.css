@@ -5,8 +5,11 @@ h2 {
 }
 
 body {
+    margin-left: 10em;
+    margin-right: 10em;
     font-family: helvetica;
     background-color: #7C2626
+    
 }
 
 h2,
@@ -14,12 +17,12 @@ h3 {
     color: White;
 }
 
-p {
+p, ol{
     color: White;
     line-height: 2em;
 }
 
-table {
+table{
     border: solid;
     padding: 10px;
     background-color: #BFB48f;
@@ -27,17 +30,19 @@ table {
 
 head {
     background-color: black;
+    position: absolute;
 }
 
 .headBar {
     display: inline-block;
-    padding: .08em;
+    text-align: center;
     margin: 5px;
-    font-size: 1em;
     margin-left: 6em;
+    
 }
 
 #colorHeadBar {
+    display: inline-block;
     line-height: 1em;
     margin-top: ;
     background-color: #BFB48f;
@@ -49,13 +54,12 @@ head {
     height: 5em;
     width: auto;
     position: relative;
-    padding: 1px;
-    border: 1px solid #021a40;
     padding: .5em;
 }
 
 nav a {
     color: white;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -65,10 +69,14 @@ nav a:hover {
 
 a {
     color: White;
-    line-height: 2em;
-    font-size: 18px;
+    line-height: 1em;
+    font-size: 15px;
 }
 
 a:hover {
     color: red;
+}
+
+img{
+    border-color: #7C2626;
 }
