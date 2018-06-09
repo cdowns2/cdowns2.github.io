@@ -1,60 +1,10 @@
-h1,
-h2 {
-    color: White;
-    font-family: 'Roboto Slab', serif;
-}
-
-body {
-    margin-left: 10em;
-    margin-right: 10em;
-    font-family: helvetica;
-    background-color: #7C2626
-    
-}
-
-h2,
-h3 {
-    color: White;
-}
-
-p, ol{
-    color: White;
-    line-height: 2em;
-}
-
-table{
-    border: solid;
-    padding: 10px;
-    background-color: #BFB48f;
-}
-
-head {
-    background-color: black;
-    position: absolute;
-}
-
-.headBar {
-    display: inline-block;
-    text-align: center;
-    margin: 5px;
-    margin-left: 6em;
-    
-}
-
-#colorHeadBar {
-    display: inline-block;
-    line-height: 1em;
-    margin-top: ;
-    background-color: #BFB48f;
-}
-
-#logo {
-    padding-left: 3em;
-    padding-top: 3em;
-    height: 5em;
-    width: auto;
-    position: relative;
-    padding: .5em;
+/*------------------------------HEADER------------------------------*/
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: gray;
 }
 
 nav a {
@@ -64,19 +14,190 @@ nav a {
 
 
 nav a:hover {
-    color: red;
+    color: white;
+    font-size: 17px;
 }
 
-a {
+.headtab {
+    
     color: White;
     line-height: 1em;
-    font-size: 15px;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px black;
+    
 }
 
-a:hover {
+.headtab:hover {
+    
+    background-color: gray;
+    padding: 14px;
+    color: white;
+}
+
+.button1{
+   color: White;
+    line-height: 2.5em;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px black; 
+    background-color:#BFB48f;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.button1:hover{
+   background-color: gray;
+    padding: 5px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button2{
     color: red;
 }
 
-img{
-    border-color: #7C2626;
+.button2:hover{
+    color: gray ;
 }
+
+head {
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: center;
+}
+
+.headBar {
+    display: inline-block;
+    margin-left: 75px;
+    text-align: center; 
+}
+
+/*------------------------------CONTENT------------------------------*/
+#content {
+    margin-left: 10em;
+    margin-right: 10em;
+    font-family: helvetica;   
+}
+
+body{
+    background-color: #7C2626;
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+#colorHeadBar {
+    display: flex;
+    flex: center;
+    text-align: center;
+    line-height: 1em;
+    background-color: #BFB48f; 
+}
+
+table{
+
+    border: solid;
+    background-color: #BFB48f;
+}
+
+.table{
+    float: right;
+    padding-left: 15px;
+      
+    
+}
+
+#table1{
+    
+}
+
+#table2{
+    
+}
+
+#table3{
+    
+}
+
+#table4{
+    
+}
+
+.guide{
+   float: right;
+    padding-left: 15px; 
+}
+
+/*------------------------------FOOTER------------------------------*/
+#footer{
+    width: 100%;
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+    color: lightgray;
+}
+
+/*------------------------------LOGO------------------------------*/
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    padding-left: 3em;
+    padding-top: 3em;
+    height: 5em;
+    width: auto;
+    position: relative;
+    padding: .5em;
+}
+
+#link_logo:hover {
+    padding: 0px;
+    
+}
+
+/*------------------------------TEXT------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+    color: White;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1.5px 1.5px black;
+}
+
+h2, h3 {
+    color: White;
+}
+
+p, ol{
+    color: White;
+    line-height: 2em;
+}
+
+
+/*------------------------------PHOTOS------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
