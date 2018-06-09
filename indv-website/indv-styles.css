@@ -93,7 +93,6 @@ body{
 
 #colorHeadBar {
     display: flex;
-    flex: center;
     text-align: center;
     line-height: 1em;
     background-color: #BFB48f; 
