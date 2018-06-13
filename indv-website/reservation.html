@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <div id="header">
+<div id="header">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,6 +19,7 @@
         </nav>
         <style>
             @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
         </style>
     </head>
 </div>
@@ -29,7 +30,60 @@
         <h1>Reservation</h1>
 
         <p> This is where you make a reservation.</p>
+
+        <form>
+            Name: <input name="firstname" type="text">
+            <br>
+            <br> 
+            Adress: <input name="firstname" type="text">
+            <br>
+            <br> 
+            Phone: <input name="firstname" type="text">
+            <br>
+            <br>
+            Email: <input name="firstname" type="text">
+            <br>
+            <br>
+            Activity: <select name="Activity">
+                <option value="Rafting">Rafting</option>
+              <option value="Horseback Riding">Horseback Riding</option>
+              <option value="Mountain Biking">Mountain Biking</option>
+              <option value="Hiking">Hiking</option>
+            </select>
+            <br>
+            <br> 
+            Guide: <select name="Guide">
+                <option value="Rafting">Matt</option>
+              <option value="Horseback Riding">Rachel</option>
+              <option value="Mountain Biking">Zack</option>
+              <option value="Hiking">Sierra</option>
+            <option value="Hiking">John</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="message" rows="8" cols="30">Comments: </textarea>
+            <br>
+            <br>
+            <button type="button" onclick="alert('Thank you! Your recipt will be emailed to the provided email.')">Submit</button>
+
+        </form>
+
+
         <p>If you have any questions that you would like to ask us directly, please <a href="mailto:expanded.outdoors@example.org">email us</a>.</p>
+        
+        <h3>You are one step closer to hearing the birds! See you there!</h3>
+            <audio src="birds.mp3" controls autoplay>
+            <p>This browser does not support our audio format.</p>
+            </audio>
+<br>
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
 
         <a href="../index.html" class="button1">Home</a>
     </body>
@@ -53,4 +107,5 @@
         Expanded Outdoors &copy; | ExpandedOutdoors.com | 123 N. 234 S. Park City, UT | (208) 123-4567 | Hours: Mon-Fri 8am - 5pm, Sat 10am - 6pm
     </footer>
 </div>
+
 </html>

@@ -1,4 +1,5 @@
 /*------------------------------HEADER------------------------------*/
+
 #header {
     width: 100%;
     position: fixed;
@@ -19,73 +20,77 @@ nav a:hover {
 }
 
 .headtab {
-    
+
     color: White;
     line-height: 1em;
     font-size: 17px;
     text-decoration: none;
     text-shadow: 1.5px 1.5px black;
-    
+
 }
 
 .headtab:hover {
-    
+
     background-color: gray;
     padding: 14px;
     color: white;
 }
 
-.button1{
-   color: White;
+.button1 {
+    color: White;
     line-height: 2.5em;
     font-size: 17px;
     text-decoration: none;
-    text-shadow: 1.5px 1.5px black; 
-    background-color:#BFB48f;
+    text-shadow: 1.5px 1.5px black;
+    background-color: #BFB48f;
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: 'Roboto Slab', serif;
 }
 
-.button1:hover{
-   background-color: gray;
+.button1:hover {
+    background-color: gray;
     padding: 5px;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.button2{
+.button2 {
     color: red;
 }
 
-.button2:hover{
-    color: gray ;
+.button2:hover {
+    color: gray;
 }
 
 head {
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
     text-align: center;
 }
 
 .headBar {
     display: inline-block;
     margin-left: 75px;
-    text-align: center; 
+    text-align: center;
 }
 
 /*------------------------------CONTENT------------------------------*/
+
 #content {
     margin-left: 10em;
     margin-right: 10em;
-    font-family: helvetica;   
+    font-family: helvetica;
 }
 
-body{
+body {
     background-color: #7C2626;
     margin-top: 200px;
     margin-bottom: 0;
@@ -95,45 +100,60 @@ body{
     display: flex;
     text-align: center;
     line-height: 1em;
-    background-color: #BFB48f; 
+    background-color: #BFB48f;
 }
 
-table{
+table {
 
     border: solid;
     background-color: #BFB48f;
 }
 
-.table{
+.table {
     float: right;
     padding-left: 15px;
-      
-    
+
+
 }
 
-#table1{
-    
+#table1 {}
+
+#table2 {}
+
+#table3 {}
+
+#table4 {}
+
+.guide {
+    float: right;
+    padding-left: 15px;
 }
 
-#table2{
-    
+form{
+    color: white;
 }
 
-#table3{
-    
+button{
+    height: 30px; width: 90px;
+    background-color: #BFB48f;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
 }
 
-#table4{
-    
-}
-
-.guide{
-   float: right;
-    padding-left: 15px; 
+button:hover{
+    height: 30px; width: 90px;
+    background-color: gray;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
 }
 
 /*------------------------------FOOTER------------------------------*/
-#footer{
+
+#footer {
     width: 100%;
     position: static;
     bottom: 0px;
@@ -145,6 +165,7 @@ table{
 }
 
 /*------------------------------LOGO------------------------------*/
+
 #logo {
     display: block;
     margin-left: auto;
@@ -161,42 +182,47 @@ table{
 
 #link_logo:hover {
     padding: 0px;
-    
+
 }
 
 /*------------------------------TEXT------------------------------*/
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: White;
     font-family: 'Roboto Slab', serif;
     text-shadow: 1.5px 1.5px black;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: White;
 }
 
-p, ol{
+p,
+ol {
     color: White;
     line-height: 2em;
 }
 
 
 /*------------------------------PHOTOS------------------------------*/
+.banner{
+    width: 100%; margin-top: -55px;
+}
 
+body{
+    
+}
 
+/*------------------------------VIDEOS------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+iframe{
+   display: block;
+margin: 0 auto;
+    padding-top: 20px;
+}
