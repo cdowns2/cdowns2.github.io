@@ -17,12 +17,12 @@ nav a {
 nav a:hover {
     color: white;
     font-size: 17px;
+    
 }
 
 .headtab {
-
+    padding: 3%; 
     color: White;
-    line-height: 1em;
     font-size: 17px;
     text-decoration: none;
     text-shadow: 1.5px 1.5px black;
@@ -32,9 +32,10 @@ nav a:hover {
 .headtab:hover {
 
     background-color: gray;
-    padding: 14px;
     color: white;
+
 }
+
 
 .button1 {
     color: White;
@@ -42,11 +43,12 @@ nav a:hover {
     font-size: 17px;
     text-decoration: none;
     text-shadow: 1.5px 1.5px black;
-    background-color: #BFB48f;
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: 'Roboto Slab', serif;
+    background-color: #BFB48f;
+    
 }
 
 .button1:hover {
@@ -65,43 +67,41 @@ nav a:hover {
     color: gray;
 }
 
-head {
-    background-color: black;
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    /* Position the navbar at the top of the page */
+ul .headBar {
+    display: inline;
+}
+
+#colorHeadBar{
     width: 100%;
-    /* Full width */
     text-align: center;
+    background-color: #BFB48f;
+    padding: 11px;
 }
 
-.headBar {
-    display: inline-block;
-    margin-left: 75px;
+li a {
+/*    padding: 14px 16px 14px 30px;*/
     text-align: center;
 }
-
 /*------------------------------CONTENT------------------------------*/
 
 #content {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: helvetica;
 }
 
 body {
     background-color: #7C2626;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 0;
 }
 
-#colorHeadBar {
+/*#colorHeadBar {
     display: flex;
     text-align: center;
     line-height: 1em;
     background-color: #BFB48f;
-}
+}*/
 
 table {
 
@@ -161,6 +161,7 @@ button:hover{
     background-color: gray;
     padding: 15px;
     text-align: center;
+    margin-left: -10px;
     color: lightgray;
 }
 
@@ -222,7 +223,32 @@ body{
 /*------------------------------VIDEOS------------------------------*/
 
 iframe{
-   display: block;
-margin: 0 auto;
+    display: block;
+    margin: 0 auto;
     padding-top: 20px;
+}
+
+/*------------------------------MOBILE------------------------------*/
+@media screen and (max-width: 970px) {
+
+    
+    nav a{
+        display:block; 
+        width:100%; 
+        text-align: center;
+    background-color: #BFB48f;
+   padding-right: 10%;
+
+    }
+    
+    body {
+    background-color: #7C2626;
+    margin-top: 450px;
+    margin-bottom: 0;
+}
+    .guide {
+    float:none ;
+    margin: 4em;
+}
+    
 }
