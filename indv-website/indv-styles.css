@@ -3,6 +3,13 @@
 .header{
     background-color: gray;
 }
+.button1{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20%;
+
+}
 
 .button1:hover {
     background-color: gray;
@@ -119,6 +126,7 @@ table {
     float: right;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 
 
 }
@@ -132,8 +140,9 @@ table {
 #table4 {}
 
 .guide {
-    float: right;
-    padding-left: 15px;
+margin-left: 10%;
+
+
 }
 
 form{
