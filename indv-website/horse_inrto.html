@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
 <div id="header">
+    <html>
 
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Expanded Outdoors</title>
-        <link href="indv-styles.css" type="text/css" rel="stylesheet" />
-        <a id="link_logo" href="../index.html"><img src="logo_full.png" alt="EO Logo" width="80" id="logo"></a>
-        <nav id="colorHeadBar">
-            <ul>
-                <li class="headBar"><a href="rafting_intro.html" class="headtab">Rafting</a></li>
-                <li class="headBar"><a href="horse_inrto.html" class="headtab">Horseback Riding</a></li>
-                <li class="headBar"><a href="biking_intro.html" class="headtab">Mountain Biking</a></li>
-                <li class="headBar"><a href="hiking_intro.html" class="headtab">Hiking</a></li>
-                <li class="headBar"><a href="about_us.html" class="headtab">About Us</a></li>
-                <li class="headBar"><a href="../cit230-links.html" class="headtab"> CIT230-links</a></li>
-            </ul>
-        </nav>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
-        </style>
-    </head>
-</div>
+<head class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Expanded Outdoors</title>
+    <link href="indv-styles.css" type="text/css" rel="stylesheet" />
+    <a id="link_logo" href="../index.html"><img src="logo_full.png" alt="EO Logo" width="80" id="logo"></a>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
+    </style>
+</head>
+
 <div id="content">
 
     <body>
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html" class="active">Home</a>
+            <a href="rafting_intro.html">Rafting</a>
+            <a href="horse_inrto.html">Horseback Riding</a>
+            <a href="biking_intro.html">Biking</a>
+            <a href="hiking_intro.html">Hiking</a>
+            <a href="about_us.html">About Us</a>
+            <a href="../cit230-links.html">CIT 230 Links</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" href="#">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
         
         <img src="banner-02.jpg" alt="Into Photo" class="banner" >
 
@@ -71,9 +86,9 @@
         
         <a href="riding_guilds.html" class="button1">View available guides</a>
         <br>
-        <a href="reservation.html" class="button1">Make a reservation!</a>
         <br>
-        <a href="../index.html" class="button1">Home</a>
+        <a href="reservation.html" class="button1">Make a reservation!</a>
+
 
     </body>
 </div>

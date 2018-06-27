@@ -1,54 +1,7 @@
 /*------------------------------HEADER------------------------------*/
 
-#header {
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
+.header{
     background-color: gray;
-}
-
-nav a {
-    color: white;
-    font-family: 'Roboto Slab', serif;
-}
-
-
-nav a:hover {
-    color: white;
-    font-size: 17px;
-    
-}
-
-.headtab {
-    padding: 3%; 
-    color: White;
-    font-size: 17px;
-    text-decoration: none;
-    text-shadow: 1.5px 1.5px black;
-
-}
-
-.headtab:hover {
-
-    background-color: gray;
-    color: white;
-
-}
-
-
-.button1 {
-    color: White;
-    line-height: 2.5em;
-    font-size: 17px;
-    text-decoration: none;
-    text-shadow: 1.5px 1.5px black;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: 'Roboto Slab', serif;
-    background-color: #BFB48f;
-    
 }
 
 .button1:hover {
@@ -67,32 +20,84 @@ nav a:hover {
     color: gray;
 }
 
-ul .headBar {
-    display: inline;
-}
 
-#colorHeadBar{
-    width: 100%;
-    text-align: center;
-    background-color: #BFB48f;
-    padding: 11px;
-}
+/*----------NEW-----------*/
+.topnav {
+            margin: 0;
+            font-family: 'Roboto Slab', serif;
+        }
 
-li a {
-/*    padding: 14px 16px 14px 30px;*/
-    text-align: center;
-}
+        .topnav {
+            overflow: hidden;
+            background-color: #BFB48f;
+
+            
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        .active {
+            background-color: gray;
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+ 
+        }
+        @media screen and (max-width: 850px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+            .topnav a.icon {
+                float: right;
+                display: block;
+                color: white;
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            .topnav.responsive {
+                position: relative;
+            }
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
 /*------------------------------CONTENT------------------------------*/
 
 #content {
-    margin-left: 10%;
-    margin-right: 10%;
+
     font-family: helvetica;
 }
 
+p,h3,h4,h2,h1,.button{
+      margin-left: 10%;
+    margin-right: 10%;  
+}
 body {
     background-color: #7C2626;
-    margin-top: 250px;
     margin-bottom: 0;
 }
 
@@ -107,11 +112,13 @@ table {
 
     border: solid;
     background-color: #BFB48f;
+    
 }
 
 .table {
     float: right;
-    padding-left: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 
 }
@@ -133,16 +140,18 @@ form{
     color: white;
 }
 
-button{
+.button1{
     height: 30px; width: 90px;
     background-color: #BFB48f;
     font-family: 'Roboto Slab', serif;
     color: white;
     font-size: 15px;
     text-shadow: 1.5px 1.5px black;
+    margin-left: 10%;
+
 }
 
-button:hover{
+.button1:hover{
     height: 30px; width: 90px;
     background-color: gray;
     font-family: 'Roboto Slab', serif;
@@ -171,14 +180,17 @@ button:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-
+    width: 100%;
     padding-left: 3em;
     padding-top: 3em;
+    padding-bottom: 1em;
     height: 5em;
     width: auto;
     position: relative;
     padding: .5em;
+
+
+    
 }
 
 #link_logo:hover {
@@ -213,7 +225,7 @@ ol {
 
 /*------------------------------PHOTOS------------------------------*/
 .banner{
-    width: 100%; margin-top: -55px;
+    width: 100%; margin-top:;
 }
 
 body{
@@ -229,26 +241,6 @@ iframe{
 }
 
 /*------------------------------MOBILE------------------------------*/
-@media screen and (max-width: 970px) {
 
-    
-    nav a{
-        display:block; 
-        width:100%; 
-        text-align: center;
-    background-color: #BFB48f;
-   padding-right: 10%;
 
-    }
-    
-    body {
-    background-color: #7C2626;
-    margin-top: 450px;
-    margin-bottom: 0;
-}
-    .guide {
-    float:none ;
-    margin: 4em;
-}
-    
-}
+

@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html>
 <div id="header">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device=width, initial-scal=1.0">
-        <title>Expanded Outdoors</title>
-        <link href="indv-website/indv-styles.css" type="text/css" rel="stylesheet" />
-        <a id="link_logo" href="index.html"><img src="indv-website/logo_full.png" alt="EO Logo" width="80" id="logo"></a>
-        <nav id="colorHeadBar">
-            <ul>
-                <li class="headBar"><a href="indv-website/rafting_intro.html" class="headtab">Rafting</a></li>
-                <li class="headBar"><a href="indv-website/horse_inrto.html"class="headtab">Horseback Riding</a></li>
-                <li class="headBar"><a href="indv-website/biking_intro.html"class="headtab">Mountain Biking</a></li>
-                <li class="headBar"><a href="indv-website/hiking_intro.html"class="headtab">Hiking</a></li>
-                <li class="headBar"><a href="indv-website/about_us.html"class="headtab">About Us</a></li>
-                <li class="headBar"><a href="cit230-links.html" class="headtab"> CIT230-links</a></li>
-            </ul>
-        </nav>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+    <html>
 
-        </style>
-    </head>
-</div>
-    
+<head class="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Expanded Outdoors</title>
+    <link href="indv-website/indv-styles.css" type="text/css" rel="stylesheet" />
+    <a id="link_logo" href="index.html"><img src="indv-website/logo_full.png" alt="EO Logo" width="80" id="logo"></a>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
+    </style>
+</head>
+
 <div id="content">
 
     <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="indv-website/rafting_intro.html">Rafting</a>
+            <a href="indv-website/horse_inrto.html">Horseback Riding</a>
+            <a href="indv-website/biking_intro.html">Biking</a>
+            <a href="indv-website/hiking_intro.html">Hiking</a>
+            <a href="about_us.html">About Us</a>
+            <a href="cit230-links.html">CIT 230 Links</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" href="#">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
 
         <h2>Welcome!</h2>
         <p> Are you looking for the adventure of a lifetime? Are you worried about not knowing how to do it? Well, you came to the right place! Expanded outdoors specializes in providing you the best outdoor experience for your buck! In our different locations, you can take advantage of having a personal guide with you to guide you on how to white water raft, horseback ride, Mountain bike, and many other exciting activities that are at your expense. We guaranteed that you Will be satisfied with the fun we will have when you allow us to show you the expanded outdoors. Book your reservation today! You won’t regret it!
         </p>
-        
-        <iframe width="600" height="315" src="https://www.youtube.com/embed/4rRGg_BY_rM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/4rRGg_BY_rM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
     </body>
 </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <div id="footer">
     <footer>
