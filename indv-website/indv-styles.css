@@ -169,6 +169,14 @@ form{
     text-shadow: 1.5px 1.5px black;
 }
 
+#outputDiv{
+    margin-left: 10%;
+    color: white;
+}
+
+#seasonInputBox{
+    margin-left: 10%;
+}
 /*------------------------------FOOTER------------------------------*/
 
 #footer {
@@ -234,7 +242,7 @@ ol {
 
 /*------------------------------PHOTOS------------------------------*/
 .banner{
-    width: 100%; margin-top:;
+    width: 100%;
 }
 
 body{
