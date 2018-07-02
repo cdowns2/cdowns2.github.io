@@ -29,8 +29,9 @@
     <i class="fa fa-bars"></i>
   </a>
             </div>
-            <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+
             </script>
 
             <script>
@@ -42,12 +43,24 @@
                         x.className = "topnav";
                     }
                 }
+
             </script>
             <script>
-
                 $(document).ready(function() {
                     $("h3").click(function() {
                         $(this).hide();
+                    });
+                });
+
+                $(document).ready(function() {
+                    $("button").click(function() {
+                        $("p").hide();
+                    });
+                });
+
+                $(document).ready(function() {
+                    $("#p1").mouseenter(function() {
+                        alert("Nice! You actually did it. Well done!");
                     });
                 });
 
@@ -59,10 +72,10 @@
             </p>
 
             <iframe width="450" height="315" src="https://www.youtube.com/embed/4rRGg_BY_rM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            
+
             <h2>Outdoor Checklist</h2>
 
-            <p>Theses are things you will need when going on a trip with us. We will provide the rest.</p> 
+            <p>Theses are things you will need when going on a trip with us. We will provide the rest.</p>
             <p>(Click an item to make it disapear)</p>
             <br>
             <h3>• Good hiking shoes</h3>
@@ -71,6 +84,18 @@
             <h3>• Sunscreen</h3>
             <h3>• Bug spray</h3>
             <h3>• Snacks</h3>
+            <br>
+            <br>
+
+            <h2>Warning</h2>
+
+            <p>Please note that these activities are not for everyone.</p>
+            <p>Please read our about page for more information.</p>
+
+            <button>Click to hide warning</button>
+            <br>
+            <br>
+            <p id="p1">HOVER OVER ME!</p>
 
 
         </body>
