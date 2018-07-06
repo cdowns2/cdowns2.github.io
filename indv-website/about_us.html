@@ -16,7 +16,7 @@
 
 <div id="content">
 
-    <body>
+    <body onload = "loadMap()">
         <div class="topnav" id="myTopnav">
             <a href="../index.html" class="active">Home</a>
             <a href="rafting_intro.html">Rafting</a>
@@ -55,6 +55,52 @@
         <p>If you have more questions about what we do and how we can help you in any way, please visit our <a href="questions.html" class="button2">Frequently asked questions</a> page to learn more.</p>
         <br>
         <br>
+         <h2>Expanded Outdoors Lodge</h2>
+    <div id = "map" style = "width:640px; height:480px;"></div>
+      <script>
+
+        
+        function getJSONMarkers() {
+          const markers = [
+            {
+             name:"Expanded Outdoors Lodge",
+            location:[40.6461, -111.4980]
+                
+            },
+
+          ];
+          return markers;
+        }
+
+        function loadMap() {
+          // Initialize Google Maps
+          const mapOptions = {
+            center: new google.maps.LatLng(40.6461, -111.4980),
+              zoom:15
+             
+          }
+          const map = new google.maps.Map(document.getElementById("map"),mapOptions);
+
+          // Load JSON Data
+          const hotelMarkers = getJSONMarkers();
+
+          // Initialize Google Markers
+          for(hotel of hotelMarkers) {
+            let marker = new google.maps.Marker({
+            map:map,
+                position: new google.maps.LatLng(hotel.location[0],hotel.location[1]),
+                title:hotel.name
+                
+                          
+            })
+          }
+        }
+      </script>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+        <br>
+    <br>
+    <br>
+    <br>
         <a href="reservation.html" class="button1">Make a reservation!</a>
 
 
